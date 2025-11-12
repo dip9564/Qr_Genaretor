@@ -5,7 +5,7 @@ url = input("Enter URL (or any text): ").strip()
 img=qr.make(url)
 
 # choose output file name
-file_name = input("Enter file name to save (default: myp.png): ").strip()
+file_name = input("Enter file name to save (default: my_qr.png): ").strip()
 if type(file_name)==str:
     file_name += ".png"
 else:
