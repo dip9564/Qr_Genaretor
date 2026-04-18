@@ -45,7 +45,7 @@ if st.button("Generate"):
         img.add_data(url)
         img.make(fit=True)
 
-        img = qr.make_image(fill_color=fill_color, back_color=back_color)
+        img = img.make_image(fill_color=fill_color, back_color=back_color)
         
         buf = BytesIO()
         img.save(buf)
