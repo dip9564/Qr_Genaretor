@@ -14,8 +14,6 @@ A customizable QR Code Generator built using Python and Streamlit. Generate QR c
 * Download QR as PNG
 * Clean and simple UI 
 
-## 🧠 How It Works
-The script uses the **qrcode** Python library to generate and save QR codes locally.
 
 ## 🛠️ Built With
 Python
