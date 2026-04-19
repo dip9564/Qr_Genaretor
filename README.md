@@ -40,18 +40,17 @@ streamlit run app.py
 4. Click Generate QR Code
 5. Download your QR
 
-🖥️ Usage
-Clone or download the repository:
-Navigate into the folder:
-python qr_generator.py
-Enter a text or URL when prompted, then enter a file name (or press Enter to use the default my_qr.png).
-```
 # 👨‍💻 Author
-Developed by Dip Mondal
+Developed by <b>Dip Mondal</b>
+
 If you’d like to connect, reach me at dipmondal19564@gmail.com
 
 ⭐ Support
+
 If you like this project, consider giving it a ⭐ on GitHub!
+
 ⸻
+
 🔗 Connect
+
 * [LinkedIn](https://www.linkedin.com/in/dip-mondal-5500a6327/?isSelfProfile=true)
