@@ -27,19 +27,21 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 📌 How to use")
     st.markdown("""
-    1. Enter text or URL  
-    2. Click **Generate QR Code**  
-    3. Download the QR image  
+    1. Enter text or URL in the input field
+    2. Customize QR color, background, and size from the sidebar
+    3. (Optional) Upload a logo to embed in the QR code 
+    4. Click **Generate QR Code**  
+    5. Download the generated QR image  
     """)
     st.markdown("---")
     st.info("💡 You can use this QR for websites, text, or sharing links.")
 
 # main app
-st.title('📱 QR Generator')
+st.title('📱 QR Generator Code')
 st.write("Generate QR codes from text or URL")
-url=st.text_input('Enter text')
+url=st.text_input('Enter text or URL ')
 
-name=st.text_input('Enter filename ','Qr.png')
+name=st.text_input('Enter filename ','Qr_code.png')
 
 if st.button("Generate"):
     if url:
