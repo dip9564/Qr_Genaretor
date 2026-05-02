@@ -21,7 +21,7 @@ with st.sidebar:
 
     st.markdown("---")
 
-    st.subheader("ℹ️ About this app")
+    st.subheader("ℹ️ About this App")
     st.write("👨‍💻 Created by **Dip Mondal**")
     
     st.markdown("---")
